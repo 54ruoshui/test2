@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>ruoshui的网页</title>
+ <style>
+ body {
+ background-image: url("../image/首页图片.png"); 
+ background-size: cover;
+ background-repeat: no-repeat;
+ }
+
+ .button-container {
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+ }
+
+ .button-container button {
+ margin: 0 15px; 
+ padding: 10px 20px; 
+ font-size: 16px;
+ cursor: pointer;
+ border: none;
+ background-color: rgba(255, 255, 255, 0.2); 
+ color: #fff;
+ border-radius: 5px;
+ transition: background-color 0.3s;
+ }
+
+ .button-container button:hover {
+ background-color: rgba(255, 255, 255, 0.5); 
+ }
+ .yellow{
+    color: yellow;
+ }
+ </style>
+</head>
+<body>
+ <h1 style="text-align: center; font-size: 48px; color: #ff0;">ruoshui</h1>
+
+ <p style="text-align: center; font-size: 24px; color: #fff; margin-top: 20px;">我将在网页中介绍一下我最喜欢的人物：<span class="yellow">宋徽宗</span></p>
+
+ <div class="button-container">
+  <a href="web\life.html"><button onclick="confirmNavigation(event)">生平简介</button></a>
+  <a href="web\calligraphy.html"><button onclick="confirmNavigation(event)">书法成就</button></a>
+  <a href="web\drawing.html"><button onclick="confirmNavigation(event)">绘画作品</button></a>
+  <a href="web\yuanlin.html"><button onclick="confirmNavigation(event)">园林造诣</button></a>
+ </div>
+</body>
+</html>
